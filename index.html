@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>User Card</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+  
+  <body>
+    <header>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid head">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Sandy's Restaurant</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li id="home" class="active"><a href="#">Home</a></li>
+          <li id="favorites"><a href="#" id="fav">Favorites</a></li>
+          <li ><a  href="" id="reset">Reset</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+
+
+
+
+  <div class="container">
+    <!-- Create a text input for the search bar -->
+    <input type="text" id="search-input" placeholder="Search for a meal...">
+    <!-- Create a button to submit the search query -->
+    <button id="search-button">Search</button>
+  </div>
+  <!-- Create a div to hold the search results -->
+  <div id="search-results"></div>
+  <!-- Link to an external JavaScript file -->
+  <script src="script.js"></script>
+  </body>
+</html>
