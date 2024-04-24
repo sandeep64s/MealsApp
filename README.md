@@ -7,4 +7,6 @@ The functionalaities are as follows :
 2. Meal Detail Page : Should show information about the meal like its name, photo, instructions, etc.
 3. My favourite meals Page : Display a list of all the favourite meals. Make this list persistent (should have the same number of meals before and after closing the browser/refreshing the browser). Remove from favourites button: Each meal should have remove from favourites button, clicking on which should remove that meal from the list.
 
+4. API Used : https://www.themealdb.com/api.php
+
 
